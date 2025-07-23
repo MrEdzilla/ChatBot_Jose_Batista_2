@@ -25,6 +25,10 @@ def obter_resposta(texto: str) -> str:
         ('olá', 'boa tarde', 'bom dia'): 'Olá tudo bem!',
         'como estás': 'Estou bem, obrigado!',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
+        'quem és tu': 'Eu sou um ChatBot',
+        'gostas de música?': 'Gosto sim, especialmente de pop!',
+        'podes-me ajudar?': 'Claro que sim!'
+        'gostas de programar?': 'Foi assim que fui concebido, por isso sim.'
     }
 
     for chave, resposta in respostas.items():
